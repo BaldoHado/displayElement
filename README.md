@@ -1,3 +1,3 @@
 # displayElement
   
-hi we will present about the display element from css3
+Hello, we hope you enjoy our project about the "display" element in CSS. It is a very useful property when organizing and styling webpages.
