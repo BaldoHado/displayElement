@@ -87,6 +87,16 @@ div.title {
   color: black;
 }
 
+div.titlemain {
+  height: 20vh;
+  left: 25%;  
+  width: 100%;
+  position: relative;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  color: black;
+}
 #iid {
   font-size: 20px;
   color: #FFED66;
