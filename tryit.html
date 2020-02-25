@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Bitter|Cabin|Jim+Nightshade|Ma+Shan+Zheng|Noto+Sans+TC|Poppins|Raleway&display=swap" rel="stylesheet">
+  <title>Document</title>
+</head>
+<body>
+  
+  <div class="main">
+    <div id="nav">
+      <div class="learn">
+      <h2> Learn CSS </h2>
+      </div>
+      <div class="navinside">
+        <ul>
+          <hr>
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="#contact">Try it!</a></li>
+          <hr>
+        </ul>
+      </div>
+    </div>
+    <div class="title">
+<div class="" id="titleinner">
+        <h1>
+        Display Element <b id="tryit">[TRY IT]</b>
+      </h1>
+      </div>
+      <h3><u>Click the button on the left to see the transformation! 
+        </u>
+        <br>
+        <br>
+        <i id="iid">[In this transformation, the CSS display property of the boxes is changed from "flex" to "inline"]</i>
+      </h3>
+      <button type = "button" onclick="document.getElementById('test').style.display = 'inline'" class="button1">  Click Me! </button>
+            <button type = "button" onclick="document.getElementById('test').style.display = 'flex'" class="button1">Go Back!</button>
+    </div>
+   
+    <div class="information" id="test">
+      <div class="insideinfo">
+        <div class="info">
+        <p class="preinfo">
+<b class="blockclass">"Contents"</b><br>
+	Makes the container disappear, making the child elements children of the element the next level up in the DOM
+        </p>
+        </div>
+      </div>
+      <div class="insidehidden">
+        
+      </div>
+      <div class="insideinfo">
+<p class="preinfo">
+<b class="blockclass">"Inline"</b><br>
+Displays an element as an inline element. Any height and width properties will have no effect
+        </p>
+        </div>
+      </div>
