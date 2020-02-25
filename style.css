@@ -16,7 +16,6 @@ FF5E5B */
 @import url('https://fonts.googleapis.com/css?family=Galada|Modak&display=swap');
 .main {
 /*   container for the whole website */
-
 }
 
 body {
@@ -78,7 +77,7 @@ div#nav {
 }
 
 div.title {
-  height: 20vh;
+  height: 35vh;
   left: 25%;  
   width: 100%;
   position: relative;
@@ -86,6 +85,14 @@ div.title {
   font-family: 'Raleway', sans-serif;
   font-size: 20px;
   color: black;
+}
+
+#iid {
+  font-size: 20px;
+  color: #FFED66;
+  text-shadow: 1px 1.5px black;
+}
+#titleinner {
   text-shadow: 2px 1px black;
 }
 
@@ -145,6 +152,42 @@ div.insideinfo {
   font-family: 'Galada', cursive;
   font-weight: normal;
 }
+
+.bigdiv {
+  border: 5px red solid;
+  left: 19%;
+  width: 100%;
+  display: flex;
+  position: relative;
+}
+
+.button1 {
+  height: 50px;
+  width: 45%;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: black;
+  background-color:	#D3D3D3;
+  border: 2px black solid;
+  box-shadow: 3px 3px 3px grey;
+}
+
+#tryit {
+  color: #FFED66;
+}
+/* 
+.codeshow {
+  border: 5px red solid;
+  margin: 0;
+  background: yellow;
+  position: absolute;
+  height: 10em;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%) }
+} */
 /* div.insideinfo2 {
   height: 30vh;
   left: 0px;  
